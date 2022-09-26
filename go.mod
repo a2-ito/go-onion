@@ -2,20 +2,6 @@ module go-onion
 
 go 1.18
 
-require github.com/a2-ito/go-onion/src/presenter v0.0.0
-
-require github.com/a2-ito/go-onion/src/interactor v0.0.0
-
-require github.com/a2-ito/go-onion/src/usecase v0.0.0
-
-require github.com/a2-ito/go-onion/src/domain/repository v0.0.0
-
-require github.com/a2-ito/go-onion/src/domain/model v0.0.0
-
-require github.com/a2-ito/go-onion/src/presenter/handler v0.0.0
-
-require github.com/a2-ito/go-onion/src/infrastructure/database/memory v0.0.0
-
 require (
 	github.com/golang-jwt/jwt v3.2.2+incompatible // indirect
 	github.com/google/uuid v1.3.0 // indirect
@@ -32,16 +18,3 @@ require (
 	golang.org/x/time v0.0.0-20201208040808-7e3f01d25324 // indirect
 )
 
-replace github.com/a2-ito/go-onion/src/presenter => ./src/presenter
-
-replace github.com/a2-ito/go-onion/src/interactor => ./src/interactor
-
-replace github.com/a2-ito/go-onion/src/usecase => ./src/usecase
-
-replace github.com/a2-ito/go-onion/src/domain/repository => ./src/domain/repository
-
-replace github.com/a2-ito/go-onion/src/domain/model => ./src/domain/model
-
-replace github.com/a2-ito/go-onion/src/presenter/handler => ./src/presenter/handler
-
-replace github.com/a2-ito/go-onion/src/infrastructure/database/memory => ./src/infrastructure/database/memory

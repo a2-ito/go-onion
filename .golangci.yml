@@ -1,0 +1,26 @@
+linters:
+  enable-all: true
+  disable:
+    - structcheck
+    - nilerr
+    - bodyclose
+    - contextcheck
+    - interfacer
+    - noctx
+    - rowserrcheck
+    - sqlclosecheck
+    - tparallel
+    - unparam
+    - wastedassign
+    - exhaustivestruct
+    - golint
+    - maligned
+    - scopelint
+    - gofumpt
+    - gci
+    - wrapcheck
+
+linters-settings:
+  varnamelen:
+    ignore-names:
+      - e

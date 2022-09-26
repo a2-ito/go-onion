@@ -2,6 +2,19 @@
 
 Onion Architecture Sample with Golang
 
+## Todo
+
+- [ ] "Hello world" app with echo
+- [ ] env configuration
+- [ ] Build as a Container via buildpacks
+- [ ] format with go fmt
+- [ ] Build with a dockerfile
+- [ ] lint for dockerfile
+- [ ] Logging - zap
+- [ ] disable linter structcheck due to warninng
+- [ ] lint with golangci-lint
+- [ ] go test
+
 ## libs
 - echo
 
